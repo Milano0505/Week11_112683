@@ -1,3 +1,5 @@
+package week11.milano.id.ac.umn.Tugas;
+
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.util.Formatter;
@@ -52,7 +54,7 @@ public class User {
                 return true;
             } else {
                 System.out.println("Password yang anda masukkan salah");
-                System.out.print("Kesempatan Anda Login"+(maxLoginAttempts-LoginAttempts));
+                System.out.print("Kesempatan Anda Login "+(maxLoginAttempts-LoginAttempts));
                 System.out.println(" Kali Lagi");
                 LoginAttempts++;
             }
