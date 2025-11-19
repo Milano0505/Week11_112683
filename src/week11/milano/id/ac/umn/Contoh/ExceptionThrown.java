@@ -1,4 +1,4 @@
-package week11.milano.id.ac.umn;
+package week11.milano.id.ac.umn.Contoh;
 
 public class ExceptionThrown {
     static int divideByZero(int a, int b) {
